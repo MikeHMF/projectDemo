@@ -10,3 +10,5 @@
 * 一个封装的弹出视图（popView）: HWPopToolDemo
 * BATableViewKit是自定义列表中的索引栏（Index Bar）。手指滑动 index bar 时，中间会出现黑色小浮块，并把index Bar上的字显示在黑色小浮块上，黑色小浮块上的字会随手指index bar 变换。: BATableViewDemo
 * 自定义搜索框+历史记录：HistorysearchesDemo
+* 避免键盘遮住输入框：TPKeyboardAvoidingDemo
+* 下拉菜单：DOPDropDownMenuDemo
