@@ -15,3 +15,4 @@
 * SlideSwitchDemo 多个viewController嵌入在ScrollView中，可以左右滑动 
 * MessageUIDemo：发短信
 * UISearchBarDemo：iOS 两种搜索框UISeacherBar
+* StrikeThroughLabelDemo:label中间添加一条横线，可以实现旧价格
