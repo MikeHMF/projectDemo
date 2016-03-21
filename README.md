@@ -1,7 +1,7 @@
 # projectDemo
-* dateDemo 日期类别
-* ShuXingChuanZhi 属性传值的两种方法
-* tableviewCellDemo 用xib文件创建自定义cell
+* DateDemo 日期类别
+* AttributeValueDemo 属性传值的两种方法
+* TableviewCellDemo 用xib文件创建自定义cell
 * UIAlertViewDemo 带有输入框的AlertView
 * ViewRectDemo 使用了（CGRect）{x,y,width,height} 
 * SortedNSArrayDemo  NSArray二分法查找
