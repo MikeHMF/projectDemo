@@ -13,3 +13,4 @@
 * TPKeyboardAvoidingDemo 避免键盘遮住输入框
 * DOPDropDownMenuDemo 下拉菜单
 * SlideSwitchDemo 多个viewController嵌入在ScrollView中，可以左右滑动 
+* MessageUIDemo：发短信
