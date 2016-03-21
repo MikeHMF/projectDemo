@@ -14,3 +14,4 @@
 * DOPDropDownMenuDemo 下拉菜单
 * SlideSwitchDemo 多个viewController嵌入在ScrollView中，可以左右滑动 
 * MessageUIDemo：发短信
+* UISearchBarDemo：iOS 两种搜索框UISeacherBar
