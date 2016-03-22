@@ -16,4 +16,7 @@
 * MessageUIDemo：发短信
 * UISearchBarDemo：iOS 两种搜索框UISeacherBar
 * StrikeThroughLabelDemo:label中间添加一条删除线，可以实现旧价格
-* PYzxingDemo:从相册中解析二维码
+* PYzxingDemo:扫描本地相册二维码，从相册中解析二维码
+* ZXingObjCDemo:扫描二维码
+* iOSCategoriesDemo:类别库大全
+* FontIconReaderDemo:FontIcon开源库的查阅功能
