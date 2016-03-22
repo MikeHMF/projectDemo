@@ -1,0 +1,2 @@
+platform :ios, '7.0'
+pod 'FontIcon', '~> 1.0'
