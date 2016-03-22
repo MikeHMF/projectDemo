@@ -17,6 +17,7 @@
 * UISearchBarDemo iOS 两种搜索框UISeacherBar
 * StrikeThroughLabelDemo label中间添加一条删除线，可以实现旧价格
 * PYzxingDemo 扫描本地相册二维码，从相册中解析二维码
-* iOSCategoriesDemo 类别库大全
+* CategoriesDemo 类别库大全
 * FontIconReaderDemo FontIcon开源库的查阅功能
 * FontDemo 使用小图标
+* FontAwesomeKitDemo:使用FontAwesomeKit图标资源
