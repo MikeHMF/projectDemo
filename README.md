@@ -20,4 +20,5 @@
 * CategoriesDemo 类别库大全
 * FontIconReaderDemo FontIcon开源库的查阅功能
 * FontDemo 使用小图标
-* FontAwesomeKitDemo:使用FontAwesomeKit图标资源
+* FontAwesomeKitDemo 使用FontAwesomeKit图标资源
+* HJCornerRadiusDemo 一行代码搞定图片圆角
