@@ -22,3 +22,6 @@
 * FontDemo 使用小图标
 * FontAwesomeKitDemo 使用FontAwesomeKit图标资源
 * HJCornerRadiusDemo 一行代码搞定图片圆角
+* CollectionViewControllerDemo 集合视图实例
+* WHC_DataModelFactoryDemo:可以把json或者xml字符串自动生成模型
+* CoreDatademo 数据库访问
