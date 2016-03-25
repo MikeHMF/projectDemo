@@ -25,3 +25,4 @@
 * CollectionViewControllerDemo 集合视图实例
 * WHC_DataModelFactoryDemo:可以把json或者xml字符串自动生成模型
 * CoreDatademo 数据库访问
+* ConnectDemo 获取手机通讯录联系人和电话
