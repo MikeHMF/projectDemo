@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#define screenWidth [[UIScreen mainScreen]bounds].size.width    //屏幕宽度
 @interface Cell1 : UITableViewCell
 
 @property (nonatomic,retain) UILabel *nameLabel;//姓名
 @property (nonatomic,retain) UIImageView *avatorImageView;//头像
+
 @end

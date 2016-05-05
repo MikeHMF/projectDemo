@@ -31,7 +31,8 @@
 
         [self.contentView addSubview: self.avatorImageView];
         [self.contentView addSubview: self.nameLabel];
-  
+ 
+        
     }
     
     return self;

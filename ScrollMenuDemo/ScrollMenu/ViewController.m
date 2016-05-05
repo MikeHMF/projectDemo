@@ -22,6 +22,8 @@
 
 @property (nonatomic, strong) NSString *index;//左边点击的是第几行
 
+@property (nonatomic, retain) NSIndexPath *selectedIndexPath;
+
 @end
 
 @implementation ViewController
@@ -64,9 +66,20 @@
     self.leftTableView.dataSource = self;
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.leftTableView.tableFooterView = [[UIView alloc]init];
+  
     [self.view addSubview:self.leftTableView];
     
 }
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (tableView == self.leftTableView) {
+        
+        cell.backgroundColor = [UIColor colorWithRed:244/255.0f green:244/255.0f blue:244/255.0f alpha:1];
+;
+        
+    }
+}
+
 
 - (void)initRightTableView {
     
@@ -127,6 +140,8 @@
     return 0;
 }
 
+
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (tableView == self.leftTableView) {
@@ -134,9 +149,38 @@
         NSString *row = [NSString stringWithFormat:@"%ld",(long)indexPath.row];
         [[NSNotificationCenter defaultCenter]postNotificationName:@"点击左边菜单" object:nil  userInfo:@{@"index":row}];
         
+        NSArray *array = [tableView visibleCells];
+        for (UITableViewCell *cell in array) {
+           [cell setAccessoryType:UITableViewCellAccessoryNone];
+            cell.textLabel.textColor=[UIColor blackColor];
+            cell.selectedBackgroundView.backgroundColor = [UIColor colorWithRed:244/255.0f green:244/255.0f blue:244/255.0f alpha:1];
+        
+            cell.accessoryView = nil;
+        }
+        
+        Cell1 *cell=[self.leftTableView cellForRowAtIndexPath:indexPath];
+        cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
+        
+        UIView *subView = [[UIView alloc]initWithFrame:cell.frame];
+        subView.backgroundColor = [UIColor whiteColor];
+        cell.selectedBackgroundView = subView;
+        
+
+
     }
+    
     if (tableView == self.rightTableView) {
         
+        NSArray *tmpArray = [tableView visibleCells];
+        for (UITableViewCell *cell in tmpArray) {
+            [cell setAccessoryType:UITableViewCellAccessoryNone];
+            cell.textLabel.textColor=[UIColor blackColor];
+            
+        }
+        
+        UITableViewCell *cell=[self.rightTableView cellForRowAtIndexPath:indexPath];
+        [cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
+
         NSLog(@"indexPath row is %ld",(long)indexPath.row);
         
         NSDictionary *dict = [_dataList objectAtIndex:[self.index intValue]];
@@ -159,7 +203,7 @@
         
         Cell1* cell = [[Cell1 alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
         cell.nameLabel.text = [_keyArray objectAtIndex:indexPath.row];
-        cell.selectionStyle = UITableViewCellSelectionStyleDefault;
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
         
         return cell;
         

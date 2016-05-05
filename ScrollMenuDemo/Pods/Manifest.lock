@@ -1,0 +1,10 @@
+PODS:
+  - FontIcon (1.0)
+
+DEPENDENCIES:
+  - FontIcon (~> 1.0)
+
+SPEC CHECKSUMS:
+  FontIcon: 24a07541244227b865e689217efd7d049ba7cc43
+
+COCOAPODS: 0.39.0
