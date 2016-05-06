@@ -154,8 +154,9 @@
            [cell setAccessoryType:UITableViewCellAccessoryNone];
             cell.textLabel.textColor=[UIColor blackColor];
             cell.selectedBackgroundView.backgroundColor = [UIColor colorWithRed:244/255.0f green:244/255.0f blue:244/255.0f alpha:1];
-        
-            cell.accessoryView = nil;
+            self.leftTableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+            self.leftTableView.separatorColor = [UIColor colorWithRed:220/255.0f green:220/255.0f blue:220/255.0f alpha:1];
+       
         }
         
         Cell1 *cell=[self.leftTableView cellForRowAtIndexPath:indexPath];
