@@ -46,3 +46,8 @@
 45. KSGuideDemo 一键导入引导页
 46. BlurEffectMenuDemo 仿钉钉毛玻璃背景模糊效果
 47. igridviewDemo 最简单九宫图
+48. CheckDemo 封装验证码 
+49. testScroll 下拉放大图片
+50. ZLSwipeableViewDemo 卡片滑动
+51. BLKFlexibleHeightBarDemo 伸缩式header bar--BLKFlexibleHeightBar，类似Facebook、Square Cash以及Safari iOS app的可伸缩式header bar，可自定义其颜色和布局以及其他等。
+52. VVBlurPresentation-master 模糊视图
