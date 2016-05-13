@@ -17,18 +17,33 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(keyboardHide:)];
+    //设置成NO表示当前控件响应后会传播到其他控件上，默认为YES。
+    self.tapGestureRecognizer.cancelsTouchesInView = NO;
+    self.tapGestureRecognizer.delegate = self;
+    //将触摸事件添加到当前view
+    [self.view addGestureRecognizer:self.tapGestureRecognizer];
+
     
-    MLSearchBar *searchBar = [[MLSearchBar alloc]initWithFrame:CGRectMake(0, self.view.frame.size.height - 300, self.view.frame.size.width, 44) boardColor:[UIColor lightGrayColor] placeholderString:nil];
+    self.searchBar = [[MLSearchBar alloc]initWithFrame:CGRectMake(0, self.view.frame.size.height - 300, self.view.frame.size.width, 44) boardColor:[UIColor lightGrayColor] placeholderString:nil];
     // searchBar.boardLineWidth = 3.0;
-    searchBar.delegate = self;
-    [self.view addSubview:searchBar];
+    self.searchBar.delegate = self;
+    [self.view addSubview:self.searchBar];
     
     //    UITextField * searchField = [[searchBar subviews]lastObject];
     
-    searchBar.barStyle = UIBarStyleBlackTranslucent;
+    self.searchBar.barStyle = UIBarStyleBlackTranslucent;
     
-    searchBar.placeholder = @"输入xxx";
+    self.searchBar.placeholder = @"输入xxx";
 }
+
+
+-(void)keyboardHide:(UITapGestureRecognizer*)tap{
+
+    [self.searchBar resignFirstResponder];
+}
+
+
 - (BOOL)searchBarShouldBeginEditing:(UISearchBar *)searchBar {
     
     NSLog(@"should begin editing");

@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "MLSearchBar.h"
 
-@interface ViewController : UIViewController<UISearchBarDelegate>
+@interface ViewController : UIViewController<UISearchBarDelegate,UIGestureRecognizerDelegate>
 
-
+@property (nonatomic, strong) UITapGestureRecognizer *tapGestureRecognizer;
+@property (nonatomic, strong) MLSearchBar *searchBar;
 @end
 
