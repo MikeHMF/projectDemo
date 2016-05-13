@@ -37,4 +37,6 @@
 36. LrdOutputViewDemo 仿微信，QQ弹出菜单视图，封装好，易调用 
 37. ScrollMenuDemo 多级菜单。两列显示
 38. SXEasyMacroDemo 常用的宏
-39. chartDemo 可拖动图表
+39. ChartDemo 可拖动图表
+40. iOSHelpOtherWorkSpaceDemo  多级菜单。两列显示
+41. UIViewExt用于定位坐标很有用，可以直接拿到bottom,top,left,right. 
