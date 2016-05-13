@@ -26,12 +26,11 @@
 
     
     self.searchBar = [[MLSearchBar alloc]initWithFrame:CGRectMake(0, self.view.frame.size.height - 300, self.view.frame.size.width, 44) boardColor:[UIColor lightGrayColor] placeholderString:nil];
-    // searchBar.boardLineWidth = 3.0;
+   
+    
     self.searchBar.delegate = self;
     [self.view addSubview:self.searchBar];
-    
-    //    UITextField * searchField = [[searchBar subviews]lastObject];
-    
+    self.searchBar.boardColor = [UIColor greenColor];
     self.searchBar.barStyle = UIBarStyleBlackTranslucent;
     
     self.searchBar.placeholder = @"输入xxx";

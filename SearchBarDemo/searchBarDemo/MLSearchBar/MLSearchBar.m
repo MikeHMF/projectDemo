@@ -9,8 +9,11 @@
 #import "MLSearchBar.h"
 
 #define DefulatBorderColor [UIColor colorWithRed:4/255.0 green:193/255.0 blue:173/255.0 alpha:1.0].CGColor
+
+
 #define DefulatTintColor [UIColor colorWithRed:4/255.0 green:193/255.0 blue:173/255.0 alpha:1.0];
-#define DefulatPlacehoderString @"lanmaq searchbar"
+
+#define DefulatPlacehoderString @"请输入医生名"
 
 @implementation MLSearchBar
 
@@ -45,7 +48,8 @@
 #pragma mark - private method
 - (void)setupWithFrame:(CGRect)frame
 {
-    self.layer.cornerRadius = frame.size.height/2.0;
+//    self.layer.cornerRadius = frame.size.height/2.0;
+    self.layer.cornerRadius = 8;
     self.layer.masksToBounds = YES;
     if (self.boardLineWidth < 1.0 || self.boardLineWidth > 5.0) {
         self.layer.borderWidth = 1.0;
