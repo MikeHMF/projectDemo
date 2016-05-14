@@ -54,3 +54,4 @@
 53. DVLineChart 这是一个使用时比较简单的一个图表，可以自定义多个属性，可以滚动显示图表，并且支持“点”和“点处文字”的点击事件，两个点击时间调用同一个方法（主要是点比较小，难以选中，所以将“点处文字”添加了上去，使其可以点击），双击缩小 
 54. UIView+Chick 任何view添加点击事件
 55. tableView_CollectionVew_BtnDemo 列表grid view视图,可改变数量
+56. Segment  HR_W切换segment视图内容 
