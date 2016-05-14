@@ -55,3 +55,4 @@
 54. UIView+Chick 任何view添加点击事件
 55. tableView_CollectionVew_BtnDemo 列表grid view视图,可改变数量
 56. Segment  HR_W切换segment视图内容 
+57. FJSlidingControllerDemo 视图多个滚动
