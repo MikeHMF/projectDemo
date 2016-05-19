@@ -55,4 +55,7 @@
 54. UIView+Chick 任何view添加点击事件
 55. tableView_CollectionVew_BtnDemo 列表grid view视图,可改变数量
 56. Segment  HR_W切换segment视图内容 
-57. FJSlidingControllerDemo 视图多个滚动
+57. FJSlidingControllerDemo 视图多个滚动，最好是用在第二页跳转
+58. DQPageControllerDemo 视图多个滚动，主页
+59. KINWebBrowserDemo 内置浏览器
+60. ZFChartDemo 带标签可移动视图
