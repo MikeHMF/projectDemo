@@ -59,3 +59,4 @@
 58. DQPageControllerDemo 视图多个滚动，主页
 59. KINWebBrowserDemo 内置浏览器
 60. ZFChartDemo 带标签可移动视图
+61. ImportChartDemo 美丽的图表控件
