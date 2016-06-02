@@ -60,3 +60,6 @@
 59. KINWebBrowserDemo 内置浏览器
 60. ZFChartDemo 带标签可移动视图
 61. ImportChartDemo 美丽的图表控件
+62. TableDemo 使用代码写的tableView
+63. UIButtonImage button文字和图片上下排列
+64. UILabelstringFrameDemo自适应Label宽度
