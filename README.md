@@ -64,3 +64,6 @@
 63. UIButtonImage button文字和图片上下排列
 64. UILabelstringFrameDemo自适应Label宽度
 65. CKCalendarChangeCodeDemo 可以判断当前选择的时间，也可以记录已经选择的天数，这里只是写死的demo。
+66. CollectionViewDemo 集合视图选择后cell背景颜色改变
+67. FunctionGuideControllerDemo 引导页聚光灯效果
+68. GuidViewDemo 引导页聚光灯效果
