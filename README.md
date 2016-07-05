@@ -67,3 +67,4 @@
 66. CollectionViewDemo 集合视图选择后cell背景颜色改变
 67. FunctionGuideControllerDemo 引导页聚光灯效果
 68. GuidViewDemo 引导页聚光灯效果
+69. XMLDemo xml解析
