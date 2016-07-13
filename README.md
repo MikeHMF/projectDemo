@@ -69,3 +69,4 @@
 68. GuidViewDemo 引导页聚光灯效果
 69. XMLDemo xml解析
 70. FunctionGuideController-master 聚光灯，有使用在项目中
+71. GifImageDemo 图片动画特效
